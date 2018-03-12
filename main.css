@@ -1,18 +1,32 @@
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: #deb2ff;
+  background: #061475;
+  background: linear-gradient(rgba(163, 49, 249, 1), rgba(6, 20, 117, 1));
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+h1{
+	font-family: 'Iceland', cursive;
+	font-size: 55px;
+	color: #b3f6f7;
+	opacity: 0.9;
 }
 
 .container {
   padding: 30px;
+  margin: 0 auto;
 }
 
 main {
   max-width: 960px;
   margin: 0 auto;
+  text-align: center;
 }
 
 label {
@@ -25,4 +39,42 @@ label {
 
 .text-report dt:after {
   content: ": ";
+}
+
+.text-report {
+	opacity: 0.9;
+	margin-top: 4vw;
+	text-align: left;
+}
+
+textarea{
+	max-width: 90%;
+	padding: 15px;
+	opacity: 0.5;
+	border-radius: 12px;
+}
+
+dt{
+	display: inline-block;
+	width: 30%;
+
+}
+
+dd{
+	display: inline;
+	margin-left: 0px;
+}
+
+button{
+	margin-top: 2vh;
+	background-color: #b3f6f7;
+	color: #061475;
+	border-radius: 10px;
+	padding: 10px;
+	opacity: 0.7;
+	border: 0;
+}
+
+button:hover{
+	opacity: 0.6;
 }

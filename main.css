@@ -52,6 +52,8 @@ textarea{
 	padding: 15px;
 	opacity: 0.5;
 	border-radius: 12px;
+	outline: none;
+	border: none;
 }
 
 dt{
@@ -73,6 +75,7 @@ button{
 	padding: 10px;
 	opacity: 0.7;
 	border: 0;
+	outline: none;
 }
 
 button:hover{
